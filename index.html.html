@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QualiPRO Consult – Quality Beyond Certification</title>
+  <meta name="description" content="QualiPRO Consult helps organizations design, implement, and sustain ISO-based Quality & Food Safety Management Systems across Africa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      /* ===== Replace these with your brand colors later ===== */
+      --brand:#0f172a; /* deep navy */
+      --brand-2:#0891b2; /* teal */
+      --accent:#22c55e; /* green accent */
+    }
+    html{scroll-behavior:smooth}
+    body{font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"}
+    .brand{color:var(--brand)}
+    .brand-bg{background:var(--brand)}
+    .brand-2{color:var(--brand-2)}
+    .brand-2-bg{background:var(--brand-2)}
+    .accent{color:var(--accent)}
+    .accent-bg{background:var(--accent)}
+    .glass{backdrop-filter: blur(10px); background: rgba(255,255,255,0.7)}
+    .shadow-soft{box-shadow: 0 10px 30px rgba(2,6,23,.12)}
+  </style>
+</head>
+<body class="text-slate-700">
+  <!-- Top Bar -->
+  <div class="w-full brand-bg text-white text-sm">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+      <p class="hidden md:block">Quality Beyond Certification</p>
+      <div class="flex items-center gap-4">
+        <a href="mailto:qualiproconsult@gmail.com" class="hover:underline">qualiproconsult@gmail.com</a>
+        <a href="#contact" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-3 py-1 rounded-full transition">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/80 glass border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <!-- Placeholder Circle Logo: replace with your image src -->
+        <div class="w-9 h-9 rounded-full brand-2-bg grid place-content-center text-white font-bold">Q</div>
+        <div>
+          <div class="font-extrabold tracking-tight brand text-lg">QualiPRO Consult</div>
+          <div class="text-xs text-slate-500 -mt-0.5">Quality • Food Safety • Accreditation</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a class="hover:text-slate-900" href="#services">Services</a>
+        <a class="hover:text-slate-900" href="#about">About</a>
+        <a class="hover:text-slate-900" href="#impact">Impact</a>
+        <a class="hover:text-slate-900" href="#clients">Sectors</a>
+        <a class="hover:text-slate-900" href="#contact">Contact</a>
+        <a class="ml-2 inline-flex items-center gap-2 brand-2-bg text-white px-4 py-2 rounded-xl shadow-soft" href="#contact">Request a Call</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl border border-slate-200">
+        <span class="sr-only">Open menu</span>
+        <!-- hamburger -->
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-100 bg-white">
+      <a class="block px-4 py-3" href="#services">Services</a>
+      <a class="block px-4 py-3" href="#about">About</a>
+      <a class="block px-4 py-3" href="#impact">Impact</a>
+      <a class="block px-4 py-3" href="#clients">Sectors</a>
+      <a class="block px-4 py-3" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 brand-bg opacity-95"></div>
+    <svg class="absolute -right-40 -top-20 opacity-30" width="500" height="500" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M52.2,-71.4C66.4,-63.5,76.9,-49.9,82.6,-34.8C88.3,-19.7,89.2,-3.2,84,11.2C78.8,25.6,67.5,37.8,55,49.3C42.4,60.7,28.7,71.4,12.9,77.2C-2.9,83,-20.8,84,-36.1,78.5C-51.4,73.1,-64.2,61.2,-72.3,46.7C-80.4,32.2,-83.8,15.1,-84.6,-1C-85.4,-17.1,-83.6,-34.2,-75.1,-47.9C-66.6,-61.6,-51.4,-71.9,-35.3,-79.4C-19.2,-86.8,-2.3,-91.4,12.7,-89.4C27.6,-87.4,41.5,-78.8,52.2,-71.4Z" fill="url(#g)" />
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#0891b2"/>
+          <stop offset="100%" stop-color="#22c55e"/>
+        </linearGradient>
+      </defs>
+    </svg>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-28">
+      <div class="max-w-3xl text-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Quality Beyond Certification</h1>
+        <p class="mt-5 text-lg md:text-xl text-white/90">We help organizations design, implement, and sustain ISO-based Quality & Food Safety Management Systems. Practical. Audit-ready. Africa-focused.</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 bg-white text-slate-900 px-5 py-3 rounded-xl font-semibold shadow-soft">Book a Free Consult</a>
+          <a href="#services" class="inline-flex items-center gap-2 bg-black/20 hover:bg-black/10 text-white px-5 py-3 rounded-xl font-semibold">Explore Services</a>
+        </div>
+        <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-white/80">
+          <div class="p-4 bg-white/10 rounded-xl">ISO 9001</div>
+          <div class="p-4 bg-white/10 rounded-xl">ISO/IEC 17025</div>
+          <div class="p-4 bg-white/10 rounded-xl">ISO 22000 / HACCP</div>
+          <div class="p-4 bg-white/10 rounded-xl">ISO 13485</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 md:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="md:flex md:items-end md:justify-between">
+        <h2 class="text-3xl md:text-4xl font-bold brand">Core Services</h2>
+        <p class="mt-2 md:mt-0 text-slate-500">Implementation • Training • Internal Audits • Certification Readiness</p>
+      </div>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Quality Management</div>
+          <h3 class="mt-2 font-bold text-xl">ISO 9001:2015</h3>
+          <p class="mt-2 text-sm text-slate-600">Gap assessments, documentation, process mapping, risk-based thinking, internal audits, certification support.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Food Safety</div>
+          <h3 class="mt-2 font-bold text-xl">ISO 22000 / HACCP / FSSC</h3>
+          <p class="mt-2 text-sm text-slate-600">Hazard analysis, PRPs, CCP design, validation/verification, supplier QA, audit preparation.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Laboratory Accreditation</div>
+          <h3 class="mt-2 font-bold text-xl">ISO/IEC 17025:2017</h3>
+          <p class="mt-2 text-sm text-slate-600">Method validation, uncertainty, PT/ILCs, equipment metrology, QMS integration, readiness reviews.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Medical Devices</div>
+          <h3 class="mt-2 font-bold text-xl">ISO 13485</h3>
+          <p class="mt-2 text-sm text-slate-600">QMS for device firms: design & development controls, traceability, CAPA, supplier management.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Environment</div>
+          <h3 class="mt-2 font-bold text-xl">ISO 14001</h3>
+          <p class="mt-2 text-sm text-slate-600">Environmental aspects/impacts, compliance obligations, objectives, operational controls, audits.</p>
+        </div>
+        <!-- Card 6 -->
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-sm font-semibold brand-2">Occupational Health & Safety</div>
+          <h3 class="mt-2 font-bold text-xl">ISO 45001</h3>
+          <p class="mt-2 text-sm text-slate-600">Hazard identification, risk assessment, legal registers, incident investigation, worker participation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold brand">Why QualiPRO?</h2>
+        <ul class="mt-6 space-y-3 text-slate-700">
+          <li class="flex gap-3"><span class="mt-1">✅</span><span>Seasoned consultants with hands-on industry and regulator coaching experience across Africa.</span></li>
+          <li class="flex gap-3"><span class="mt-1">✅</span><span>Practical templates, SOPs, and toolkits accelerate implementation and adoption.</span></li>
+          <li class="flex gap-3"><span class="mt-1">✅</span><span>Data-driven assessments to prioritize gaps and track improvement over time.</span></li>
+          <li class="flex gap-3"><span class="mt-1">✅</span><span>Certification-body ready deliverables and audit rehearsal support.</span></li>
+        </ul>
+        <div class="mt-8 flex gap-3">
+          <a href="#contact" class="inline-flex items-center gap-2 brand-2-bg text-white px-5 py-3 rounded-xl">Talk to an Expert</a>
+          <a href="#impact" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl border border-slate-200">See Results</a>
+        </div>
+      </div>
+      <div class="p-6 rounded-3xl bg-gradient-to-br from-teal-50 to-emerald-50 border border-teal-100">
+        <div class="grid grid-cols-2 gap-4 text-center">
+          <div class="p-6 bg-white rounded-2xl border">
+            <div class="text-3xl font-extrabold brand">30+</div>
+            <div class="text-xs uppercase tracking-wide text-slate-500">Systems Built</div>
+          </div>
+          <div class="p-6 bg-white rounded-2xl border">
+            <div class="text-3xl font-extrabold brand">15+</div>
+            <div class="text-xs uppercase tracking-wide text-slate-500">Industries</div>
+          </div>
+          <div class="p-6 bg-white rounded-2xl border">
+            <div class="text-3xl font-extrabold brand">95%</div>
+            <div class="text-xs uppercase tracking-wide text-slate-500">Audit Pass Rate</div>
+          </div>
+          <div class="p-6 bg-white rounded-2xl border">
+            <div class="text-3xl font-extrabold brand">Africa‑wide</div>
+            <div class="text-xs uppercase tracking-wide text-slate-500">Project Footprint</div>
+          </div>
+        </div>
+        <p class="mt-4 text-xs text-slate-500">*Illustrative metrics — replace with real QualiPRO stats.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="py-16 md:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold brand">Our Implementation Approach</h2>
+      <div class="mt-8 grid md:grid-cols-4 gap-6">
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-xs font-semibold brand-2">Phase 1</div>
+          <h3 class="mt-1 font-bold">Gap Assessment</h3>
+          <p class="mt-2 text-sm text-slate-600">Baseline review, process mapping, risk registers, prioritized roadmap.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-xs font-semibold brand-2">Phase 2</div>
+          <h3 class="mt-1 font-bold">Build & Train</h3>
+          <p class="mt-2 text-sm text-slate-600">Policies, SOPs, templates; staff training and coaching; pilot runs.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-xs font-semibold brand-2">Phase 3</div>
+          <h3 class="mt-1 font-bold">Operate & Improve</h3>
+          <p class="mt-2 text-sm text-slate-600">Internal audits, management review, CAPA and performance tracking.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl border border-slate-100 shadow-soft">
+          <div class="text-xs font-semibold brand-2">Phase 4</div>
+          <h3 class="mt-1 font-bold">Audit Readiness</h3>
+          <p class="mt-2 text-sm text-slate-600">Mock audits, evidence packs, certification‑body liaison support.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sectors / Clients -->
+  <section id="clients" class="py-16 md:py-24">
+    <div class="max-w-7xl mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold brand">Sectors We Support</h2>
+      <div class="mt-8 grid grid-cols-2 md:grid-cols-6 gap-4 text-sm">
+        <div class="p-4 rounded-xl border text-center">Pharmaceuticals</div>
+        <div class="p-4 rounded-xl border text-center">Food & Beverage</div>
+        <div class="p-4 rounded-xl border text-center">Laboratories</div>
+        <div class="p-4 rounded-xl border text-center">Medical Devices</div>
+        <div class="p-4 rounded-xl border text-center">Agribusiness</div>
+        <div class="p-4 rounded-xl border text-center">Logistics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 md:py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold brand">Let’s Talk</h2>
+        <p class="mt-3 text-slate-600">Tell us briefly about your goals and timeline. We’ll respond within 1–2 business days.</p>
+        <div class="mt-6 space-y-3 text-slate-700 text-sm">
+          <div class="flex gap-3 items-center"><span>📧</span> <a class="underline" href="mailto:qualiproconsult@gmail.com">qualiproconsult@gmail.com</a></div>
+          <div class="flex gap-3 items-center"><span>🌐</span> <a class="underline" href="#">LinkedIn (add link)</a></div>
+          <div class="flex gap-3 items-center"><span>📍</span> Accra, Ghana • Serving clients across Africa</div>
+        </div>
+      </div>
+      <form class="p-6 bg-white rounded-2xl border border-slate-200 shadow-soft" action="mailto:qualiproconsult@gmail.com" method="post" enctype="text/plain">
+        <div class="grid md:grid-cols-2 gap-4">
+          <div>
+            <label class="text-sm font-medium">Name</label>
+            <input required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" type="text" name="Name" placeholder="Your Name" />
+          </div>
+          <div>
+            <label class="text-sm font-medium">Email</label>
+            <input required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" type="email" name="Email" placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="mt-4">
+          <label class="text-sm font-medium">Company</label>
+          <input class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" type="text" name="Company" placeholder="Organization" />
+        </div>
+        <div class="mt-4">
+          <label class="text-sm font-medium">How can we help?</label>
+          <textarea required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2" rows="4" name="Message" placeholder="Brief description"></textarea>
+        </div>
+        <button class="mt-5 w-full brand-2-bg text-white px-4 py-3 rounded-xl font-semibold">Send Message</button>
+        <p class="mt-2 text-xs text-slate-500">Tip: For a full contact form with auto‑reply, we can plug into Formspree or Netlify Forms (free tiers).</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 border-t">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm">© <span id="year"></span> QualiPRO Consult. All rights reserved.</div>
+      <div class="text-sm text-slate-500">Built with ❤ — replace colors by editing <code>:root</code> variables.</div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn && btn.addEventListener('click', ()=> menu.classList.toggle('hidden'));
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
